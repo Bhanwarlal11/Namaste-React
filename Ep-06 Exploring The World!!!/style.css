@@ -83,3 +83,11 @@
     padding: 1rem;
     font-weight: bold;
 }
+
+.filter{
+    display: flex;
+    justify-content: start;
+}
+.filter-btn,.search{
+    margin-inline: 0.5rem;
+}
