@@ -52,8 +52,7 @@
 
 .res-card:hover{
     cursor: pointer;
-    border: 1px solid #f0f0f040;
-    color: blue;
+    border: 1px solid #000000;
 }
 
 .res-logo{
@@ -80,7 +79,8 @@
 }
 
 .login{
-    padding: 1rem;
+    width: 100px;
+    margin: 1rem;
     font-weight: bold;
 }
 
