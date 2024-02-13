@@ -92,6 +92,11 @@
 
 .user-card{
     border: 1px solid black;
-    padding: 10px;
-    
+    width: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar_url > img{
+    width: 200px;
 }
