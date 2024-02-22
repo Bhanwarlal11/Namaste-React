@@ -1,7 +1,9 @@
-import { useState } from "react";
 import ItemList from "./ItemList";
 
-const RestaurantCategory = ({ data , showItems , setShowIndex}) => {
+
+const RestaurantCategory = ({data ,showItems, setShowIndex, dummy}) => {
+
+    console.log(data);
 
   // //now i did not want to restraurant category has own power
   // const [showItems,setShowItems] = useState(false);
@@ -26,7 +28,7 @@ const RestaurantCategory = ({ data , showItems , setShowIndex}) => {
           <span>⬇️</span>
         </div>
         {/* Accordian Boday */}
-        {showItems && <ItemList items={data.itemCards} />}
+        {showItems && <ItemList items={data.itemCards} dummy={dummy} />}
       </div>
     </div>
   );
