@@ -14,7 +14,6 @@ const Header = () => {
   const onlineStatus = useOnlineStatus();
 
   const { loggedInUser } = useContext(UserContext);
-  console.log(loggedInUser);
 
   //subscribing to the store using a selector
   const cartItems = useSelector((store) => store.cart.items);
